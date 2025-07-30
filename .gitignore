@@ -1,0 +1,4 @@
+profiles.yml
+.dbtenv
+config/
+*.json
