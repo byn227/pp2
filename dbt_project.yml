@@ -35,3 +35,6 @@ models:
   dbt_project:
       staging:
           materialized: view
+seeds:
+  dbt_project:
+      +schema: project_dbt

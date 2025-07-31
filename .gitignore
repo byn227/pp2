@@ -2,3 +2,5 @@ profiles.yml
 .dbtenv
 config/
 *.json
+logs
+yellow_tripdata_2021-01.csv

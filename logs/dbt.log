@@ -467,3 +467,214 @@ There are 1 unused configuration paths:
 [0m11:35:25.052868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023322ABFC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000233759510D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023322AE4050>]}
 [0m11:35:25.053350 [debug] [MainThread]: Flushing usage events
 [0m11:35:26.134000 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:34:32.391011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D93012CAD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D932267ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D932267D90>]}
+
+
+============================== 12:34:32.401312 | 20788f4d-0130-4e82-bc62-817d021eafe5 ==============================
+[0m12:34:32.401312 [info ] [MainThread]: Running with dbt=1.10.6
+[0m12:34:32.401945 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'c:\\Users\\admin\\pp2', 'debug': 'False', 'warn_error': 'None', 'log_path': 'c:\\Users\\admin\\pp2\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt ', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:34:32.645532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '20788f4d-0130-4e82-bc62-817d021eafe5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D93054E2C0>]}
+[0m12:34:32.712438 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:34:32.713756 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:34:32.714658 [debug] [MainThread]: Command `cli deps` succeeded at 12:34:32.714548 after 0.53 seconds
+[0m12:34:32.714966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D93117E030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D93117D370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D9310B7250>]}
+[0m12:34:32.715261 [debug] [MainThread]: Flushing usage events
+[0m12:34:34.264122 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:23:28.258459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001570DAC4C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001570FC03ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001570FC03B10>]}
+
+
+============================== 13:23:28.289843 | 828fe1c6-6a1e-4868-82c2-d43656cf8511 ==============================
+[0m13:23:28.289843 [info ] [MainThread]: Running with dbt=1.10.6
+[0m13:23:28.290797 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\admin\\pp2\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\admin\\pp2', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt seed --select yellow_tripdata_2021-01', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:23:36.206574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '828fe1c6-6a1e-4868-82c2-d43656cf8511', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001570DEF63F0>]}
+[0m13:23:36.280072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '828fe1c6-6a1e-4868-82c2-d43656cf8511', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001573B59B790>]}
+[0m13:23:36.280912 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m13:23:37.084245 [debug] [MainThread]: checksum: f6e4baf4de20596ffb9d14e6ef805989eb0e1950dedc3cc83d03f20aa023904c, vars: {}, profile: , target: , version: 1.10.6
+[0m13:23:37.267627 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:23:37.268306 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:23:37.278215 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.dbt_project.staging
+- seeds.dbt_project
+[0m13:23:37.309254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '828fe1c6-6a1e-4868-82c2-d43656cf8511', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001573B635650>]}
+[0m13:23:37.376144 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\admin\pp2\target\manifest.json
+[0m13:23:37.379457 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\admin\pp2\target\semantic_manifest.json
+[0m13:23:37.467387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '828fe1c6-6a1e-4868-82c2-d43656cf8511', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001573B7CAD50>]}
+[0m13:23:37.468151 [info ] [MainThread]: Found 1 seed, 494 macros
+[0m13:23:37.468902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '828fe1c6-6a1e-4868-82c2-d43656cf8511', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001573BA93850>]}
+[0m13:23:37.470695 [info ] [MainThread]: 
+[0m13:23:37.471307 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:23:37.471894 [info ] [MainThread]: 
+[0m13:23:37.472657 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:23:37.504798 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nodal-shift-465217-h9'
+[0m13:23:37.505480 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:23:38.449274 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nodal-shift-465217-h9_demo_dataset'
+[0m13:23:38.449853 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:23:39.260138 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '828fe1c6-6a1e-4868-82c2-d43656cf8511', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001573BC20BB0>]}
+[0m13:23:39.261103 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:23:39.327293 [debug] [Thread-1 (]: Began running node seed.pp2.yellow_tripdata_2021-01
+[0m13:23:39.328136 [info ] [Thread-1 (]: 1 of 1 START seed file demo_dataset.yellow_tripdata_2021-01 .................... [RUN]
+[0m13:23:39.329165 [debug] [Thread-1 (]: Acquiring new bigquery connection 'seed.pp2.yellow_tripdata_2021-01'
+[0m13:23:39.329688 [debug] [Thread-1 (]: Began compiling node seed.pp2.yellow_tripdata_2021-01
+[0m13:23:39.330087 [debug] [Thread-1 (]: Began executing node seed.pp2.yellow_tripdata_2021-01
+[0m13:27:05.072544 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:28:16.431799 [debug] [Thread-1 (]: On seed.pp2.yellow_tripdata_2021-01: /* {"app": "dbt", "dbt_version": "1.10.6", "profile_name": "dbt_project", "target_name": "dev", "node_id": "seed.pp2.yellow_tripdata_2021-01"} */
+
+    alter table `nodal-shift-465217-h9`.`demo_dataset`.`yellow_tripdata_2021-01` set OPTIONS()
+  
+[0m13:28:17.105832 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nodal-shift-465217-h9&j=bq:US:4b26fa84-6c60-4b4e-8afb-8d966ae91f39&page=queryresults
+[0m13:28:17.789838 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.pp2.yellow_tripdata_2021-01"
+[0m13:28:17.905682 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '828fe1c6-6a1e-4868-82c2-d43656cf8511', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001573BC5AED0>]}
+[0m13:28:17.906774 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file demo_dataset.yellow_tripdata_2021-01 ................ [[32mINSERT 1369765[0m in 278.49s]
+[0m13:28:17.907967 [debug] [Thread-1 (]: Finished running node seed.pp2.yellow_tripdata_2021-01
+[0m13:28:17.910009 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:28:17.912087 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:28:17.912453 [debug] [MainThread]: Connection 'list_nodal-shift-465217-h9' was properly closed.
+[0m13:28:17.912748 [debug] [MainThread]: Connection 'list_nodal-shift-465217-h9_demo_dataset' was properly closed.
+[0m13:28:17.913023 [debug] [MainThread]: Connection 'seed.pp2.yellow_tripdata_2021-01' was properly closed.
+[0m13:28:17.913368 [info ] [MainThread]: 
+[0m13:28:17.914047 [info ] [MainThread]: Finished running 1 seed in 0 hours 4 minutes and 40.44 seconds (280.44s).
+[0m13:28:17.915937 [debug] [MainThread]: Command end result
+[0m13:28:17.940523 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\admin\pp2\target\manifest.json
+[0m13:28:17.944168 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\admin\pp2\target\semantic_manifest.json
+[0m13:28:17.952510 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\admin\pp2\target\run_results.json
+[0m13:28:17.953035 [info ] [MainThread]: 
+[0m13:28:17.953721 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:28:17.954275 [info ] [MainThread]: 
+[0m13:28:17.954790 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:28:17.956040 [debug] [MainThread]: Command `dbt seed` succeeded at 13:28:17.955855 after 289.95 seconds
+[0m13:28:17.956595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001573BBE2990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001573B7A42D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001573B7A45F0>]}
+[0m13:28:17.957330 [debug] [MainThread]: Flushing usage events
+[0m13:28:18.974536 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:30:55.004356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C249854C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C24B993ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C24B993B10>]}
+
+
+============================== 13:30:55.014114 | a42c6031-ac7c-4cdc-8ff0-cb1a66fd555d ==============================
+[0m13:30:55.014114 [info ] [MainThread]: Running with dbt=1.10.6
+[0m13:30:55.015070 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\admin\\pp2', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\admin\\pp2\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed --select yellow_tripdata_2021-01', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:30:59.229477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a42c6031-ac7c-4cdc-8ff0-cb1a66fd555d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C249C823F0>]}
+[0m13:30:59.312765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a42c6031-ac7c-4cdc-8ff0-cb1a66fd555d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C27636B790>]}
+[0m13:30:59.313755 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m13:30:59.891629 [debug] [MainThread]: checksum: f6e4baf4de20596ffb9d14e6ef805989eb0e1950dedc3cc83d03f20aa023904c, vars: {}, profile: , target: , version: 1.10.6
+[0m13:31:00.017232 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:31:00.017777 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:31:00.025471 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.dbt_project.staging
+- seeds.dbt_project
+[0m13:31:00.044416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a42c6031-ac7c-4cdc-8ff0-cb1a66fd555d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C2773D5650>]}
+[0m13:31:00.104367 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\admin\pp2\target\manifest.json
+[0m13:31:00.107570 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\admin\pp2\target\semantic_manifest.json
+[0m13:31:00.147905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a42c6031-ac7c-4cdc-8ff0-cb1a66fd555d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C27756ED50>]}
+[0m13:31:00.149025 [info ] [MainThread]: Found 1 seed, 494 macros
+[0m13:31:00.149756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a42c6031-ac7c-4cdc-8ff0-cb1a66fd555d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C27782F850>]}
+[0m13:31:00.152065 [info ] [MainThread]: 
+[0m13:31:00.152796 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:31:00.153329 [info ] [MainThread]: 
+[0m13:31:00.154084 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:31:00.155467 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nodal-shift-465217-h9'
+[0m13:31:00.155987 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:31:01.199969 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nodal-shift-465217-h9_project_dbt'
+[0m13:31:01.200552 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:31:02.162595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a42c6031-ac7c-4cdc-8ff0-cb1a66fd555d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C2779C0BB0>]}
+[0m13:31:02.163449 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:31:02.181309 [debug] [Thread-1 (]: Began running node seed.pp2.yellow_tripdata_2021-01
+[0m13:31:02.182568 [info ] [Thread-1 (]: 1 of 1 START seed file project_dbt.yellow_tripdata_2021-01 ..................... [RUN]
+[0m13:31:02.183862 [debug] [Thread-1 (]: Acquiring new bigquery connection 'seed.pp2.yellow_tripdata_2021-01'
+[0m13:31:02.184426 [debug] [Thread-1 (]: Began compiling node seed.pp2.yellow_tripdata_2021-01
+[0m13:31:02.184885 [debug] [Thread-1 (]: Began executing node seed.pp2.yellow_tripdata_2021-01
+[0m13:34:19.807003 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:35:49.964938 [debug] [Thread-1 (]: On seed.pp2.yellow_tripdata_2021-01: /* {"app": "dbt", "dbt_version": "1.10.6", "profile_name": "dbt_project", "target_name": "dev", "node_id": "seed.pp2.yellow_tripdata_2021-01"} */
+
+    alter table `nodal-shift-465217-h9`.`project_dbt`.`yellow_tripdata_2021-01` set OPTIONS()
+  
+[0m13:35:50.625265 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nodal-shift-465217-h9&j=bq:US:9405b770-4751-45bd-bd50-015f2900fca7&page=queryresults
+[0m13:35:51.411211 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.pp2.yellow_tripdata_2021-01"
+[0m13:35:51.558280 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a42c6031-ac7c-4cdc-8ff0-cb1a66fd555d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C2779F7290>]}
+[0m13:35:51.559487 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file project_dbt.yellow_tripdata_2021-01 ................. [[32mINSERT 1369765[0m in 289.37s]
+[0m13:35:51.561220 [debug] [Thread-1 (]: Finished running node seed.pp2.yellow_tripdata_2021-01
+[0m13:35:51.563424 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:35:51.566576 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:35:51.567286 [debug] [MainThread]: Connection 'list_nodal-shift-465217-h9' was properly closed.
+[0m13:35:51.567853 [debug] [MainThread]: Connection 'list_nodal-shift-465217-h9_project_dbt' was properly closed.
+[0m13:35:51.568499 [debug] [MainThread]: Connection 'seed.pp2.yellow_tripdata_2021-01' was properly closed.
+[0m13:35:51.569293 [info ] [MainThread]: 
+[0m13:35:51.570101 [info ] [MainThread]: Finished running 1 seed in 0 hours 4 minutes and 51.42 seconds (291.42s).
+[0m13:35:51.571520 [debug] [MainThread]: Command end result
+[0m13:35:51.611659 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\admin\pp2\target\manifest.json
+[0m13:35:51.615841 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\admin\pp2\target\semantic_manifest.json
+[0m13:35:51.625329 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\admin\pp2\target\run_results.json
+[0m13:35:51.625998 [info ] [MainThread]: 
+[0m13:35:51.626884 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:35:51.627800 [info ] [MainThread]: 
+[0m13:35:51.628535 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:35:51.630144 [debug] [MainThread]: Command `dbt seed` succeeded at 13:35:51.629914 after 296.80 seconds
+[0m13:35:51.630838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C277982990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C277544050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C2775442D0>]}
+[0m13:35:51.631442 [debug] [MainThread]: Flushing usage events
+[0m13:35:52.700171 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:46:58.239197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283990A4C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002839B1E3ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002839B1E3B10>]}
+
+
+============================== 13:46:58.249247 | de2a93a5-050b-43fd-90ad-17c6e5fc6ad9 ==============================
+[0m13:46:58.249247 [info ] [MainThread]: Running with dbt=1.10.6
+[0m13:46:58.250173 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\admin\\pp2', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\admin\\pp2\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt seed --select taxi_zone_lookup', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:47:02.080188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'de2a93a5-050b-43fd-90ad-17c6e5fc6ad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283994D63F0>]}
+[0m13:47:02.154259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'de2a93a5-050b-43fd-90ad-17c6e5fc6ad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283C6B77790>]}
+[0m13:47:02.155069 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m13:47:02.859590 [debug] [MainThread]: checksum: f6e4baf4de20596ffb9d14e6ef805989eb0e1950dedc3cc83d03f20aa023904c, vars: {}, profile: , target: , version: 1.10.6
+[0m13:47:02.986609 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:47:02.987212 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:47:02.994609 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.dbt_project.staging
+- seeds.dbt_project
+[0m13:47:03.016085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'de2a93a5-050b-43fd-90ad-17c6e5fc6ad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283C6C15650>]}
+[0m13:47:03.077935 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\admin\pp2\target\manifest.json
+[0m13:47:03.081425 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\admin\pp2\target\semantic_manifest.json
+[0m13:47:03.119301 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'de2a93a5-050b-43fd-90ad-17c6e5fc6ad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283C6DAAD50>]}
+[0m13:47:03.120130 [info ] [MainThread]: Found 2 seeds, 494 macros
+[0m13:47:03.120854 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'de2a93a5-050b-43fd-90ad-17c6e5fc6ad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283C710F310>]}
+[0m13:47:03.122537 [info ] [MainThread]: 
+[0m13:47:03.123163 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:47:03.123716 [info ] [MainThread]: 
+[0m13:47:03.124539 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:47:03.125761 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nodal-shift-465217-h9'
+[0m13:47:03.126323 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:47:04.118756 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_nodal-shift-465217-h9_project_dbt'
+[0m13:47:04.119436 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:47:04.845290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'de2a93a5-050b-43fd-90ad-17c6e5fc6ad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283C71FFE10>]}
+[0m13:47:04.845960 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:47:04.853010 [debug] [Thread-1 (]: Began running node seed.pp2.taxi_zone_lookup
+[0m13:47:04.853606 [info ] [Thread-1 (]: 1 of 1 START seed file project_dbt.taxi_zone_lookup ............................ [RUN]
+[0m13:47:04.854397 [debug] [Thread-1 (]: Acquiring new bigquery connection 'seed.pp2.taxi_zone_lookup'
+[0m13:47:04.854830 [debug] [Thread-1 (]: Began compiling node seed.pp2.taxi_zone_lookup
+[0m13:47:04.855201 [debug] [Thread-1 (]: Began executing node seed.pp2.taxi_zone_lookup
+[0m13:47:04.960064 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:47:11.336817 [debug] [Thread-1 (]: On seed.pp2.taxi_zone_lookup: /* {"app": "dbt", "dbt_version": "1.10.6", "profile_name": "dbt_project", "target_name": "dev", "node_id": "seed.pp2.taxi_zone_lookup"} */
+
+    alter table `nodal-shift-465217-h9`.`project_dbt`.`taxi_zone_lookup` set OPTIONS()
+  
+[0m13:47:11.874746 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nodal-shift-465217-h9&j=bq:US:0485caf8-aed9-4221-98ba-b3a6a8b85a29&page=queryresults
+[0m13:47:12.553230 [debug] [Thread-1 (]: Writing runtime SQL for node "seed.pp2.taxi_zone_lookup"
+[0m13:47:12.576288 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'de2a93a5-050b-43fd-90ad-17c6e5fc6ad9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283C7237710>]}
+[0m13:47:12.576960 [info ] [Thread-1 (]: 1 of 1 OK loaded seed file project_dbt.taxi_zone_lookup ........................ [[32mINSERT 265[0m in 7.72s]
+[0m13:47:12.577912 [debug] [Thread-1 (]: Finished running node seed.pp2.taxi_zone_lookup
+[0m13:47:12.579657 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:47:12.581538 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:47:12.581888 [debug] [MainThread]: Connection 'list_nodal-shift-465217-h9' was properly closed.
+[0m13:47:12.582177 [debug] [MainThread]: Connection 'list_nodal-shift-465217-h9_project_dbt' was properly closed.
+[0m13:47:12.582447 [debug] [MainThread]: Connection 'seed.pp2.taxi_zone_lookup' was properly closed.
+[0m13:47:12.582750 [info ] [MainThread]: 
+[0m13:47:12.583349 [info ] [MainThread]: Finished running 1 seed in 0 hours 0 minutes and 9.46 seconds (9.46s).
+[0m13:47:12.584799 [debug] [MainThread]: Command end result
+[0m13:47:12.613226 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\admin\pp2\target\manifest.json
+[0m13:47:12.617401 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\admin\pp2\target\semantic_manifest.json
+[0m13:47:12.626153 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\admin\pp2\target\run_results.json
+[0m13:47:12.626942 [info ] [MainThread]: 
+[0m13:47:12.627907 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:47:12.628679 [info ] [MainThread]: 
+[0m13:47:12.629347 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:47:12.630449 [debug] [MainThread]: Command `dbt seed` succeeded at 13:47:12.630306 after 14.56 seconds
+[0m13:47:12.630874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283C727D390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283C72B3D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000283C72B3BB0>]}
+[0m13:47:12.631275 [debug] [MainThread]: Flushing usage events
+[0m13:47:13.855888 [debug] [MainThread]: An error was encountered while trying to flush usage events
