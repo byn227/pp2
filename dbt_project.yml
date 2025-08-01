@@ -5,7 +5,7 @@ name: 'pp2'
 version: '1.0.0'
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'dbt_project'
+profile: 'dbt_first_project'
 
 # These configurations specify where dbt should look for different types of files.
 # The `model-paths` config, for example, states that models in this project can be
@@ -31,9 +31,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 
 models:
-  dbt_project:
-      staging:
-          materialized: view
+    staging:
+          +materialized: view
+    core:
+          +materialized: table
 seeds:
-  dbt_project:
-      +schema: project_dbt
+
+vars:
+  payment_type_values: [1, 2, 3, 4, 5, 0]
