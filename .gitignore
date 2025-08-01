@@ -1,5 +1,5 @@
 profiles.yml
-.user.yml	
+.user.yml
 .dbtenv
 config/
 target/
