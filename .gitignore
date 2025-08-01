@@ -1,4 +1,5 @@
 profiles.yml
+.user.yml	
 .dbtenv
 config/
 target/
